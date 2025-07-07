@@ -14,25 +14,6 @@
         {
           "concept": [
             {
-              "description": "The date the procedure was performed.",
-              "maximumMultiplicity": "1",
-              "minimumMultiplicity": "0",
-              "mro": "R",
-              "name": "Date",
-              "type": "item",
-              "valueDomain": [
-                {
-                  "property": [
-                    {
-                      "timeStampPrecision": "YMDHM"
-                    }
-                  ],
-                  "type": "datetime"
-                }
-              ],
-              "valueSets": "Date and time."
-            },
-            {
               "concept": [
                 {
                   "description": "The coded value for location.",
