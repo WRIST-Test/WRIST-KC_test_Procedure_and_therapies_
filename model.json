@@ -92,15 +92,15 @@
               ]
             },
             {
-              "name": "New Item",
+              "name": "Reason for procedure ",
               "mro": "M",
-              "description": "",
+              "description": "<p><span style=\"background-color: rgba(66, 110, 168, 0.09); color: rgb(0, 0, 0);\">The reason why the procedure was performed, planned or not done.</span></p>",
               "valueSets": "",
-              "implementationGuidance": "",
+              "implementationGuidance": "<p><br></p>",
               "informationType": "Record",
               "type": "item",
               "minimumMultiplicity": "0",
-              "maximumMultiplicity": "1",
+              "maximumMultiplicity": "*",
               "concept": [
                 {
                   "name": "New Item",
@@ -116,7 +116,14 @@
                   "relationshipType": "neither"
                 }
               ],
-              "relationshipType": "neither"
+              "relationshipType": "neither",
+              "derivedFrom": "",
+              "isComponent": false,
+              "valueDomain": [
+                {
+                  "type": "CD"
+                }
+              ]
             },
             {
               "concept": [
