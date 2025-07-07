@@ -74,7 +74,7 @@
             {
               "name": "Reason for procedure ",
               "mro": "M",
-              "description": "<p><span style=\"background-color: rgba(66, 110, 168, 0.09); color: rgb(0, 0, 0);\">The reason why the procedure was performed, planned or not done.</span></p>",
+              "description": "<p>The reason why the procedure was performed, planned or not done. </p>",
               "valueSets": "",
               "implementationGuidance": "<p><br></p>",
               "informationType": "Record",
