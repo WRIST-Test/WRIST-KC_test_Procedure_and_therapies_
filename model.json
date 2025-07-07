@@ -83,17 +83,24 @@
               "maximumMultiplicity": "*",
               "concept": [
                 {
-                  "name": "New Item",
+                  "name": "Coded value",
                   "mro": "M",
-                  "description": "",
+                  "description": "<p>The coded value for reason for procedure.&nbsp;</p>",
                   "valueSets": "",
-                  "implementationGuidance": "",
+                  "implementationGuidance": "<p><br></p>",
                   "informationType": "Record",
                   "type": "item",
                   "minimumMultiplicity": "0",
                   "maximumMultiplicity": "1",
                   "concept": [],
-                  "relationshipType": "neither"
+                  "relationshipType": "neither",
+                  "derivedFrom": "",
+                  "isComponent": false,
+                  "valueDomain": [
+                    {
+                      "type": "CD"
+                    }
+                  ]
                 },
                 {
                   "name": "New Item",
