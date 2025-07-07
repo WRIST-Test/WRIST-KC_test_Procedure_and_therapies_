@@ -16,7 +16,7 @@
             {
               "concept": [
                 {
-                  "description": "<p>The procedure code.</p>",
+                  "description": "<p>The coded value for procedure.</p>",
                   "maximumMultiplicity": "1",
                   "minimumMultiplicity": "0",
                   "mro": "R",
