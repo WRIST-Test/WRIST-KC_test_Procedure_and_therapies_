@@ -12,15 +12,22 @@
     {
       "name": "New Item",
       "mro": "M",
-      "description": "",
+      "description": "<p><br></p>",
       "valueSets": "",
-      "implementationGuidance": "",
+      "implementationGuidance": "<p><br></p>",
       "informationType": "Record",
       "type": "item",
       "minimumMultiplicity": "0",
       "maximumMultiplicity": "1",
       "concept": [],
-      "relationshipType": "neither"
+      "relationshipType": "neither",
+      "derivedFrom": "",
+      "isComponent": false,
+      "valueDomain": [
+        {
+          "type": "WRIST-Test/WRIST-core-information-standard/Procedures and therapies@3e9a14427be4d5790f65fe2783af4c7bda387cc2"
+        }
+      ]
     },
     {
       "name": "Item",
