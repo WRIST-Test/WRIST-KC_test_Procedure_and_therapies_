@@ -16,13 +16,23 @@
             {
               "concept": [
                 {
-                  "description": "The procedure code.",
+                  "description": "<p>The procedure code.</p>",
                   "maximumMultiplicity": "1",
                   "minimumMultiplicity": "0",
                   "mro": "R",
                   "name": "Coded value",
                   "type": "item",
-                  "valueSets": "SNOMED CT : - &lt;&lt; <a class=\"\" href=\"https://termbrowser.nhs.uk/?perspective=full&conceptId1=71388002&edition=uk-edition&release=&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104\" target=\"\" title=\"\">71388002</a>  |Procedure| OR &lt;&lt; <a href=\"https://termbrowser.nhs.uk/?perspective=full&conceptId1=129125009&edition=uk-edition&release=&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104\" target=\"\" title=\"\">129125009</a>  |Procedure with explicit context|"
+                  "valueSets": "SNOMED CT : - &lt;&lt; <a class=\"\" href=\"https://termbrowser.nhs.uk/?perspective=full&conceptId1=71388002&edition=uk-edition&release=&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104\" target=\"\" title=\"\">71388002</a>  |Procedure| OR &lt;&lt; <a href=\"https://termbrowser.nhs.uk/?perspective=full&conceptId1=129125009&edition=uk-edition&release=&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104\" target=\"\" title=\"\">129125009</a>  |Procedure with explicit context|",
+                  "informationType": "Record",
+                  "derivedFrom": "",
+                  "isComponent": false,
+                  "relationshipType": "specialisation",
+                  "valueDomain": [
+                    {
+                      "type": "CD"
+                    }
+                  ],
+                  "implementationGuidance": "<p><br></p>"
                 },
                 {
                   "description": "Free text field to be used if no code is available",
