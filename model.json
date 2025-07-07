@@ -72,17 +72,24 @@
               "implementationGuidance": "<p><br></p>"
             },
             {
-              "name": "New Item",
+              "name": "Reason for procedure ",
               "mro": "M",
-              "description": "",
+              "description": "<p>The reason why the procedure was performed, planned or not done.</p>",
               "valueSets": "",
-              "implementationGuidance": "",
+              "implementationGuidance": "<p><br></p>",
               "informationType": "Record",
               "type": "item",
               "minimumMultiplicity": "0",
               "maximumMultiplicity": "1",
               "concept": [],
-              "relationshipType": "neither"
+              "relationshipType": "neither",
+              "derivedFrom": "",
+              "isComponent": false,
+              "valueDomain": [
+                {
+                  "type": "CD"
+                }
+              ]
             },
             {
               "concept": [
