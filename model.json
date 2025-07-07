@@ -74,26 +74,6 @@
             {
               "name": "Reason for procedure ",
               "mro": "M",
-              "description": "<p>The reason why the procedure was performed, planned or not done.</p>",
-              "valueSets": "",
-              "implementationGuidance": "<p><br></p>",
-              "informationType": "Record",
-              "type": "item",
-              "minimumMultiplicity": "0",
-              "maximumMultiplicity": "1",
-              "concept": [],
-              "relationshipType": "neither",
-              "derivedFrom": "",
-              "isComponent": false,
-              "valueDomain": [
-                {
-                  "type": "CD"
-                }
-              ]
-            },
-            {
-              "name": "Reason for procedure ",
-              "mro": "M",
               "description": "<p><span style=\"background-color: rgba(66, 110, 168, 0.09); color: rgb(0, 0, 0);\">The reason why the procedure was performed, planned or not done.</span></p>",
               "valueSets": "",
               "implementationGuidance": "<p><br></p>",
