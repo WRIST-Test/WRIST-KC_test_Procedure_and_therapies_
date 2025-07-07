@@ -44,12 +44,22 @@
                   "valueSets": "Free text"
                 }
               ],
-              "description": "The therapeutic or diagnostic procedure performed. Includes both psychological and medical therapies and procedures (e.g. cognitive\nbehaviour therapy, or follow-up interventions as a result of physical health\nchecks). Complementary or alternative procedures and therapies should be recorded here.",
-              "maximumMultiplicity": "1",
-              "minimumMultiplicity": "1",
+              "description": "<p>The therapeutic or diagnostic procedure performed, planned or not done. Includes both psychological and medical therapies and procedures. Complementary or alternative procedures should be recorded here.</p>",
+              "maximumMultiplicity": "*",
+              "minimumMultiplicity": "0",
               "mro": "M",
               "name": "Procedure",
-              "type": "group"
+              "type": "group",
+              "informationType": "Record",
+              "derivedFrom": "",
+              "isComponent": false,
+              "relationshipType": "specialisation",
+              "valueDomain": [
+                {
+                  "type": "CD"
+                }
+              ],
+              "implementationGuidance": "<p><br></p>"
             },
             {
               "concept": [
