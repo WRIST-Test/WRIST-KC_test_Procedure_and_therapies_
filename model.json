@@ -192,7 +192,7 @@
                   "valueSets": "SNOMED CT:- &lt; <a href=\"https://termbrowser.nhs.uk/?perspective=full&conceptId1=182353008&edition=uk-edition&release=&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104\" target=\"\" title=\"\">182353008</a>  |Side (qualifier value)|"
                 },
                 {
-                  "description": "Free text field to be used if no code is available",
+                  "description": "<p>Free text field to be used if no code is available.</p>",
                   "maximumMultiplicity": "1",
                   "minimumMultiplicity": "0",
                   "mro": "R",
@@ -200,15 +200,15 @@
                   "type": "item",
                   "valueDomain": [
                     {
-                      "property": [
-                        {
-                          "maxLength": "150"
-                        }
-                      ],
-                      "type": "text"
+                      "type": "CD"
                     }
                   ],
-                  "valueSets": "Free text"
+                  "valueSets": "Free text",
+                  "informationType": "Record",
+                  "derivedFrom": "",
+                  "isComponent": false,
+                  "relationshipType": "specialisation",
+                  "implementationGuidance": "<p><br></p>"
                 }
               ],
               "description": "<p>The laterality of the procedure.</p>",
