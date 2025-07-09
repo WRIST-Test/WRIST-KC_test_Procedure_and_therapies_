@@ -163,12 +163,22 @@
                   "valueSets": "Free text"
                 }
               ],
-              "description": "The body site of the procedure",
+              "description": "<p>The anatomical side at which the procedure is.</p>",
               "maximumMultiplicity": "1",
               "minimumMultiplicity": "0",
               "mro": "R",
               "name": "Anatomical site",
-              "type": "group"
+              "type": "group",
+              "informationType": "Record",
+              "derivedFrom": "",
+              "isComponent": false,
+              "relationshipType": "specialisation",
+              "valueDomain": [
+                {
+                  "type": "CD"
+                }
+              ],
+              "implementationGuidance": "<p><br></p>"
             },
             {
               "concept": [
