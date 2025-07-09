@@ -260,17 +260,24 @@
                   ]
                 },
                 {
-                  "name": "New Item",
+                  "name": "Free text",
                   "mro": "M",
-                  "description": "",
+                  "description": "<p>Free text field to be used if no code is available.</p>",
                   "valueSets": "",
-                  "implementationGuidance": "",
+                  "implementationGuidance": "<p><br></p>",
                   "informationType": "Record",
                   "type": "item",
                   "minimumMultiplicity": "0",
                   "maximumMultiplicity": "1",
                   "concept": [],
-                  "relationshipType": "neither"
+                  "relationshipType": "neither",
+                  "derivedFrom": "",
+                  "isComponent": false,
+                  "valueDomain": [
+                    {
+                      "type": "CD"
+                    }
+                  ]
                 }
               ],
               "relationshipType": "neither",
