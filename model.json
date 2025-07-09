@@ -302,6 +302,19 @@
                 }
               ],
               "valueSets": "Free text"
+            },
+            {
+              "name": "New Item",
+              "mro": "M",
+              "description": "",
+              "valueSets": "",
+              "implementationGuidance": "",
+              "informationType": "Record",
+              "type": "item",
+              "minimumMultiplicity": "0",
+              "maximumMultiplicity": "1",
+              "concept": [],
+              "relationshipType": "neither"
             }
           ],
           "description": "This is a procedure record entry. There may be 0 to many record entries under a section. Each record entry is made up of a number of elements or data items.",
