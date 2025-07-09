@@ -229,17 +229,24 @@
               "implementationGuidance": "<p><br></p>"
             },
             {
-              "name": "New Item",
+              "name": "Outcome",
               "mro": "M",
-              "description": "",
+              "description": "<p>The outcome of the procedure. </p>",
               "valueSets": "",
-              "implementationGuidance": "",
+              "implementationGuidance": "<p><br></p>",
               "informationType": "Record",
               "type": "item",
               "minimumMultiplicity": "0",
               "maximumMultiplicity": "1",
               "concept": [],
-              "relationshipType": "neither"
+              "relationshipType": "neither",
+              "derivedFrom": "",
+              "isComponent": false,
+              "valueDomain": [
+                {
+                  "type": "CD"
+                }
+              ]
             },
             {
               "concept": [
