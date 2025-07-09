@@ -211,12 +211,22 @@
                   "valueSets": "Free text"
                 }
               ],
-              "description": "Laterality of the procedure",
+              "description": "<p>The laterality of the procedure.</p>",
               "maximumMultiplicity": "1",
               "minimumMultiplicity": "0",
               "mro": "R",
               "name": "Laterality",
-              "type": "group"
+              "type": "group",
+              "informationType": "Record",
+              "derivedFrom": "",
+              "isComponent": false,
+              "relationshipType": "specialisation",
+              "valueDomain": [
+                {
+                  "type": "CD"
+                }
+              ],
+              "implementationGuidance": "<p><br></p>"
             },
             {
               "concept": [
