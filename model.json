@@ -101,28 +101,7 @@
               "type": "item",
               "minimumMultiplicity": "0",
               "maximumMultiplicity": "*",
-              "concept": [
-                {
-                  "name": "Free text",
-                  "mro": "M",
-                  "description": "<p>Free text field to be used if no code is available.</p>",
-                  "valueSets": "",
-                  "implementationGuidance": "<p><br></p>",
-                  "informationType": "Record",
-                  "type": "item",
-                  "minimumMultiplicity": "0",
-                  "maximumMultiplicity": "1",
-                  "concept": [],
-                  "relationshipType": "neither",
-                  "derivedFrom": "",
-                  "isComponent": false,
-                  "valueDomain": [
-                    {
-                      "type": "CD"
-                    }
-                  ]
-                }
-              ],
+              "concept": [],
               "relationshipType": "neither",
               "derivedFrom": "",
               "isComponent": false,
