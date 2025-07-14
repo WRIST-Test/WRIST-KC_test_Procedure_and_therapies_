@@ -92,9 +92,9 @@
               ]
             },
             {
-              "name": "Reason for procedure ",
+              "name": "Indication for procedure ",
               "mro": "M",
-              "description": "<p>The reason why the procedure was performed, planned or not done. </p>",
+              "description": "<p>The indication for the procedure.</p>",
               "valueSets": "",
               "implementationGuidance": "<p><br></p>",
               "informationType": "Record",
