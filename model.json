@@ -404,6 +404,19 @@
           "mro": "R",
           "name": "Procedure record entry",
           "type": "group"
+        },
+        {
+          "name": "New Item",
+          "mro": "M",
+          "description": "",
+          "valueSets": "",
+          "implementationGuidance": "",
+          "informationType": "Record",
+          "type": "item",
+          "minimumMultiplicity": "0",
+          "maximumMultiplicity": "1",
+          "concept": [],
+          "relationshipType": "neither"
         }
       ],
       "description": "<p>The details of any procedures performed, planned or not done. Includes both psychological and medical therapies and procedures (e.g. cognitive behaviour therapy, hip replacement).</p>",
