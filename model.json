@@ -112,17 +112,24 @@
               ]
             },
             {
-              "name": "New Item",
-              "mro": "M",
-              "description": "",
+              "name": "Not performed reason",
+              "mro": "R",
+              "description": "<p><br></p>",
               "valueSets": "",
-              "implementationGuidance": "",
+              "implementationGuidance": "<p><br></p>",
               "informationType": "Record",
               "type": "item",
               "minimumMultiplicity": "0",
               "maximumMultiplicity": "1",
               "concept": [],
-              "relationshipType": "neither"
+              "relationshipType": "neither",
+              "derivedFrom": "",
+              "isComponent": false,
+              "valueDomain": [
+                {
+                  "type": "CD"
+                }
+              ]
             },
             {
               "concept": [
