@@ -414,7 +414,7 @@
           "informationType": "Record",
           "type": "item",
           "minimumMultiplicity": "0",
-          "maximumMultiplicity": "1",
+          "maximumMultiplicity": "*",
           "concept": [],
           "relationshipType": "neither",
           "derivedFrom": "",
