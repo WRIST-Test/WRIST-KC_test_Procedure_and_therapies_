@@ -72,6 +72,19 @@
               "implementationGuidance": "<p><br></p>"
             },
             {
+              "name": "New Item",
+              "mro": "M",
+              "description": "",
+              "valueSets": "",
+              "implementationGuidance": "",
+              "informationType": "Record",
+              "type": "item",
+              "minimumMultiplicity": "0",
+              "maximumMultiplicity": "1",
+              "concept": [],
+              "relationshipType": "neither"
+            },
+            {
               "name": "Reason for procedure ",
               "mro": "M",
               "description": "<p>The reason why the procedure was performed, planned or not done. </p>",
