@@ -133,26 +133,6 @@
               ]
             },
             {
-              "name": "Part of (parent procedure)",
-              "mro": "M",
-              "description": "<p><br></p>",
-              "valueSets": "",
-              "implementationGuidance": "<p><br></p>",
-              "informationType": "Record",
-              "type": "item",
-              "minimumMultiplicity": "0",
-              "maximumMultiplicity": "*",
-              "concept": [],
-              "relationshipType": "neither",
-              "derivedFrom": "",
-              "isComponent": false,
-              "valueDomain": [
-                {
-                  "type": "CD.CV"
-                }
-              ]
-            },
-            {
               "concept": [
                 {
                   "description": "The coded value of the anatomical site.",
