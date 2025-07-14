@@ -114,7 +114,7 @@
             {
               "name": "Not performed reason",
               "mro": "R",
-              "description": "<p><br></p>",
+              "description": "<p>Not performed reason for the procedure.</p>",
               "valueSets": "",
               "implementationGuidance": "<p><br></p>",
               "informationType": "Record",
