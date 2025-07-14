@@ -1,1 +1,427 @@
-{"version": "1.0.0", "name": "KC test Procedure and therapies ", "description": "<p><br></p>", "component_sets": [{"name": "WRIST-Test/WRIST-core-information-standard", "id": "3e9a14427be4d5790f65fe2783af4c7bda387cc2"}], "concept": [{"concept": [{"concept": [{"concept": [{"description": "<p>The coded value for procedure.</p>", "maximumMultiplicity": "1", "minimumMultiplicity": "0", "mro": "R", "name": "Coded value", "type": "item", "valueSets": "SNOMED CT : - &lt;&lt; <a class=\"\" href=\"https://termbrowser.nhs.uk/?perspective=full&conceptId1=71388002&edition=uk-edition&release=&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104\" target=\"\" title=\"\">71388002</a>  |Procedure| OR &lt;&lt; <a href=\"https://termbrowser.nhs.uk/?perspective=full&conceptId1=129125009&edition=uk-edition&release=&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104\" target=\"\" title=\"\">129125009</a>  |Procedure with explicit context|", "informationType": "Record", "derivedFrom": "", "isComponent": false, "relationshipType": "specialisation", "valueDomain": [{"type": "CD"}], "implementationGuidance": "<p><br></p>"}, {"description": "<p>Free text field to be used if no code is available.</p>", "maximumMultiplicity": "1", "minimumMultiplicity": "0", "mro": "R", "name": "Free text", "type": "item", "valueDomain": [{"type": "CD"}], "valueSets": "Free text", "informationType": "Record", "derivedFrom": "", "isComponent": false, "relationshipType": "specialisation", "implementationGuidance": "<p><br></p>"}], "description": "<p>The therapeutic or diagnostic procedure performed, planned or not done. Includes both psychological and medical therapies and procedures. Complementary or alternative procedures should be recorded here.</p>", "maximumMultiplicity": "*", "minimumMultiplicity": "0", "mro": "M", "name": "Procedure", "type": "group", "informationType": "Record", "derivedFrom": "", "isComponent": false, "relationshipType": "specialisation", "valueDomain": [{"type": "CD"}], "implementationGuidance": "<p><br></p>"}, {"name": "Reason for procedure ", "mro": "M", "description": "<p>The reason why the procedure was performed, planned or not done. </p>", "valueSets": "", "implementationGuidance": "<p><br></p>", "informationType": "Record", "type": "item", "minimumMultiplicity": "0", "maximumMultiplicity": "*", "concept": [{"name": "Coded value", "mro": "M", "description": "<p>The coded value for reason for procedure.&nbsp;</p>", "valueSets": "", "implementationGuidance": "<p><br></p>", "informationType": "Record", "type": "item", "minimumMultiplicity": "0", "maximumMultiplicity": "1", "concept": [], "relationshipType": "neither", "derivedFrom": "", "isComponent": false, "valueDomain": [{"type": "CD"}]}, {"name": "Free text", "mro": "M", "description": "<p>Free text field to be used if no code is available.</p>", "valueSets": "", "implementationGuidance": "<p><br></p>", "informationType": "Record", "type": "item", "minimumMultiplicity": "0", "maximumMultiplicity": "1", "concept": [], "relationshipType": "neither", "derivedFrom": "", "isComponent": false, "valueDomain": [{"type": "CD"}]}], "relationshipType": "neither", "derivedFrom": "", "isComponent": false, "valueDomain": [{"type": "CD"}]}, {"concept": [{"description": "The coded value of the anatomical site.", "maximumMultiplicity": "1", "minimumMultiplicity": "0", "mro": "R", "name": "Coded value", "type": "item", "valueSets": "SNOMED CT :- &lt; <a href=\"https://termbrowser.nhs.uk/?perspective=full&conceptId1=123037004&edition=uk-edition&release=&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104\" target=\"\" title=\"\">123037004</a>  |Body structure (body structure)|"}, {"description": "Free text field to be used if no code is available", "maximumMultiplicity": "1", "minimumMultiplicity": "0", "mro": "R", "name": "Free text", "type": "item", "valueDomain": [{"property": [{"maxLength": "150"}], "type": "text"}], "valueSets": "Free text"}], "description": "<p>The anatomical side at which the procedure is.</p>", "maximumMultiplicity": "1", "minimumMultiplicity": "0", "mro": "R", "name": "Anatomical site", "type": "group", "informationType": "Record", "derivedFrom": "", "isComponent": false, "relationshipType": "specialisation", "valueDomain": [{"type": "CD"}], "implementationGuidance": "<p><br></p>"}, {"concept": [{"description": "The coded value for laterality.", "maximumMultiplicity": "1", "minimumMultiplicity": "0", "mro": "R", "name": "Coded value", "type": "item", "valueSets": "SNOMED CT:- &lt; <a href=\"https://termbrowser.nhs.uk/?perspective=full&conceptId1=182353008&edition=uk-edition&release=&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104\" target=\"\" title=\"\">182353008</a>  |Side (qualifier value)|"}, {"description": "<p>Free text field to be used if no code is available.</p>", "maximumMultiplicity": "1", "minimumMultiplicity": "0", "mro": "R", "name": "Free text", "type": "item", "valueDomain": [{"type": "CD"}], "valueSets": "Free text", "informationType": "Record", "derivedFrom": "", "isComponent": false, "relationshipType": "specialisation", "implementationGuidance": "<p><br></p>"}], "description": "<p>The laterality of the procedure.</p>", "maximumMultiplicity": "1", "minimumMultiplicity": "0", "mro": "R", "name": "Laterality", "type": "group", "informationType": "Record", "derivedFrom": "", "isComponent": false, "relationshipType": "specialisation", "valueDomain": [{"type": "CD"}], "implementationGuidance": "<p><br></p>"}, {"name": "Outcome", "mro": "M", "description": "<p>The outcome of the procedure. </p>", "valueSets": "", "implementationGuidance": "<p><br></p>", "informationType": "Record", "type": "item", "minimumMultiplicity": "0", "maximumMultiplicity": "1", "concept": [{"name": "Coded value", "mro": "M", "description": "<p>The coded value of the outcome.</p>", "valueSets": "", "implementationGuidance": "<p><br></p>", "informationType": "Record", "type": "item", "minimumMultiplicity": "0", "maximumMultiplicity": "1", "concept": [], "relationshipType": "neither", "derivedFrom": "", "isComponent": false, "valueDomain": [{"type": "CD"}]}, {"name": "Free text", "mro": "M", "description": "<p>Free text field to be used if no code is available.</p>", "valueSets": "", "implementationGuidance": "<p><br></p>", "informationType": "Record", "type": "item", "minimumMultiplicity": "0", "maximumMultiplicity": "1", "concept": [], "relationshipType": "neither", "derivedFrom": "", "isComponent": false, "valueDomain": [{"type": "CD"}]}], "relationshipType": "neither", "derivedFrom": "", "isComponent": false, "valueDomain": [{"type": "CD"}]}, {"concept": [{"description": "The coded value for complications relating to procedure.", "maximumMultiplicity": "1", "minimumMultiplicity": "0", "mro": "R", "name": "Coded value", "type": "item", "valueSets": "SNOMED CT : - &lt; <a href=\"https://termbrowser.nhs.uk/?perspective=full&conceptId1=404684003&edition=uk-edition&release=&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104\" target=\"\" title=\"\">404684003</a>  |Clinical finding (finding)| <p/> \n                        "}, {"description": "Free text field to be used if no code is available", "maximumMultiplicity": "1", "minimumMultiplicity": "0", "mro": "R", "name": "Free text", "type": "item", "valueDomain": [{"property": [{"maxLength": "150"}], "type": "text"}], "valueSets": "Free text"}], "description": "Details of any intra-operative complications encountered during the procedure, arising during the person\u2019s stay in the recovery unit or directly attributable to the procedure.", "maximumMultiplicity": "1", "minimumMultiplicity": "0", "mro": "R", "name": "Complications related to procedure", "type": "group"}, {"concept": [{"description": "The coded value for specific anesthesia issues.", "maximumMultiplicity": "1", "minimumMultiplicity": "0", "mro": "R", "name": "Coded value", "type": "item", "valueSets": "SNOMED CT"}, {"description": "Free text field to be used if no code is available", "maximumMultiplicity": "1", "minimumMultiplicity": "0", "mro": "R", "name": "Free text", "type": "item", "valueDomain": [{"property": [{"maxLength": "150"}], "type": "text"}], "valueSets": "Free text"}], "description": "Details of any adverse reaction to any anesthetic agents including local anesthesia. Problematic intubation, transfusion reaction, etc.", "maximumMultiplicity": "1", "minimumMultiplicity": "0", "mro": "R", "name": "Specific anesthesia issues", "type": "group"}, {"description": "Any further textual comment to clarify such as statement that information is partial or incomplete. Also indicate the outcome of the procedure.", "maximumMultiplicity": "1", "minimumMultiplicity": "0", "mro": "R", "name": "Comment", "type": "item", "valueDomain": [{"property": [{"maxLength": "150"}], "type": "text"}], "valueSets": "Free text"}], "description": "This is a procedure record entry. There may be 0 to many record entries under a section. Each record entry is made up of a number of elements or data items.", "maximumMultiplicity": "*", "minimumMultiplicity": "0", "mro": "R", "name": "Procedure record entry", "type": "group"}], "description": "<p>The details of any procedures performed, planned or not done. Includes both psychological and medical therapies and procedures (e.g. cognitive behaviour therapy, hip replacement).</p>", "maximumMultiplicity": "1", "minimumMultiplicity": "0", "mro": "R", "name": "Procedures and therapies", "type": "group", "isComponent": true, "relationshipType": "neither", "informationType": "Record", "derivedFrom": "", "valueDomain": [{"type": "CD"}], "implementationGuidance": "<p><br></p>"}]}
+{
+  "version": "1.0.0",
+  "name": "KC test Procedure and therapies ",
+  "description": "<p><br></p>",
+  "component_sets": [
+    {
+      "name": "WRIST-Test/WRIST-core-information-standard",
+      "id": "3e9a14427be4d5790f65fe2783af4c7bda387cc2"
+    }
+  ],
+  "concept": [
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "description": "<p>The coded value for procedure.</p>",
+                  "maximumMultiplicity": "1",
+                  "minimumMultiplicity": "0",
+                  "mro": "R",
+                  "name": "Coded value",
+                  "type": "item",
+                  "valueSets": "SNOMED CT : - &lt;&lt; <a class=\"\" href=\"https://termbrowser.nhs.uk/?perspective=full&conceptId1=71388002&edition=uk-edition&release=&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104\" target=\"\" title=\"\">71388002</a>  |Procedure| OR &lt;&lt; <a href=\"https://termbrowser.nhs.uk/?perspective=full&conceptId1=129125009&edition=uk-edition&release=&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104\" target=\"\" title=\"\">129125009</a>  |Procedure with explicit context|",
+                  "informationType": "Record",
+                  "derivedFrom": "",
+                  "isComponent": false,
+                  "relationshipType": "specialisation",
+                  "valueDomain": [
+                    {
+                      "type": "CD"
+                    }
+                  ],
+                  "implementationGuidance": "<p><br></p>"
+                },
+                {
+                  "description": "<p>Free text field to be used if no code is available.</p>",
+                  "maximumMultiplicity": "1",
+                  "minimumMultiplicity": "0",
+                  "mro": "R",
+                  "name": "Free text",
+                  "type": "item",
+                  "valueDomain": [
+                    {
+                      "type": "CD"
+                    }
+                  ],
+                  "valueSets": "Free text",
+                  "informationType": "Record",
+                  "derivedFrom": "",
+                  "isComponent": false,
+                  "relationshipType": "specialisation",
+                  "implementationGuidance": "<p><br></p>"
+                }
+              ],
+              "description": "<p>The therapeutic or diagnostic procedure performed, planned or not done. Includes both psychological and medical therapies and procedures. Complementary or alternative procedures should be recorded here.</p>",
+              "maximumMultiplicity": "*",
+              "minimumMultiplicity": "0",
+              "mro": "M",
+              "name": "Procedure",
+              "type": "group",
+              "informationType": "Record",
+              "derivedFrom": "",
+              "isComponent": false,
+              "relationshipType": "specialisation",
+              "valueDomain": [
+                {
+                  "type": "CD"
+                }
+              ],
+              "implementationGuidance": "<p><br></p>"
+            },
+            {
+              "name": "Reason for procedure ",
+              "mro": "M",
+              "description": "<p>The reason why the procedure was performed, planned or not done. </p>",
+              "valueSets": "",
+              "implementationGuidance": "<p><br></p>",
+              "informationType": "Record",
+              "type": "item",
+              "minimumMultiplicity": "0",
+              "maximumMultiplicity": "*",
+              "concept": [
+                {
+                  "name": "Coded value",
+                  "mro": "M",
+                  "description": "<p>The coded value for reason for procedure.&nbsp;</p>",
+                  "valueSets": "",
+                  "implementationGuidance": "<p><br></p>",
+                  "informationType": "Record",
+                  "type": "item",
+                  "minimumMultiplicity": "0",
+                  "maximumMultiplicity": "1",
+                  "concept": [],
+                  "relationshipType": "neither",
+                  "derivedFrom": "",
+                  "isComponent": false,
+                  "valueDomain": [
+                    {
+                      "type": "CD"
+                    }
+                  ]
+                },
+                {
+                  "name": "Free text",
+                  "mro": "M",
+                  "description": "<p>Free text field to be used if no code is available.</p>",
+                  "valueSets": "",
+                  "implementationGuidance": "<p><br></p>",
+                  "informationType": "Record",
+                  "type": "item",
+                  "minimumMultiplicity": "0",
+                  "maximumMultiplicity": "1",
+                  "concept": [],
+                  "relationshipType": "neither",
+                  "derivedFrom": "",
+                  "isComponent": false,
+                  "valueDomain": [
+                    {
+                      "type": "CD"
+                    }
+                  ]
+                }
+              ],
+              "relationshipType": "neither",
+              "derivedFrom": "",
+              "isComponent": false,
+              "valueDomain": [
+                {
+                  "type": "CD"
+                }
+              ]
+            },
+            {
+              "concept": [
+                {
+                  "description": "The coded value of the anatomical site.",
+                  "maximumMultiplicity": "1",
+                  "minimumMultiplicity": "0",
+                  "mro": "R",
+                  "name": "Coded value",
+                  "type": "item",
+                  "valueSets": "SNOMED CT :- &lt; <a href=\"https://termbrowser.nhs.uk/?perspective=full&conceptId1=123037004&edition=uk-edition&release=&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104\" target=\"\" title=\"\">123037004</a>  |Body structure (body structure)|"
+                },
+                {
+                  "description": "Free text field to be used if no code is available",
+                  "maximumMultiplicity": "1",
+                  "minimumMultiplicity": "0",
+                  "mro": "R",
+                  "name": "Free text",
+                  "type": "item",
+                  "valueDomain": [
+                    {
+                      "property": [
+                        {
+                          "maxLength": "150"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "valueSets": "Free text"
+                }
+              ],
+              "description": "<p>The anatomical side at which the procedure is.</p>",
+              "maximumMultiplicity": "1",
+              "minimumMultiplicity": "0",
+              "mro": "R",
+              "name": "Anatomical site",
+              "type": "group",
+              "informationType": "Record",
+              "derivedFrom": "",
+              "isComponent": false,
+              "relationshipType": "specialisation",
+              "valueDomain": [
+                {
+                  "type": "CD"
+                }
+              ],
+              "implementationGuidance": "<p><br></p>"
+            },
+            {
+              "concept": [
+                {
+                  "description": "The coded value for laterality.",
+                  "maximumMultiplicity": "1",
+                  "minimumMultiplicity": "0",
+                  "mro": "R",
+                  "name": "Coded value",
+                  "type": "item",
+                  "valueSets": "SNOMED CT:- &lt; <a href=\"https://termbrowser.nhs.uk/?perspective=full&conceptId1=182353008&edition=uk-edition&release=&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104\" target=\"\" title=\"\">182353008</a>  |Side (qualifier value)|"
+                },
+                {
+                  "description": "<p>Free text field to be used if no code is available.</p>",
+                  "maximumMultiplicity": "1",
+                  "minimumMultiplicity": "0",
+                  "mro": "R",
+                  "name": "Free text",
+                  "type": "item",
+                  "valueDomain": [
+                    {
+                      "type": "CD"
+                    }
+                  ],
+                  "valueSets": "Free text",
+                  "informationType": "Record",
+                  "derivedFrom": "",
+                  "isComponent": false,
+                  "relationshipType": "specialisation",
+                  "implementationGuidance": "<p><br></p>"
+                }
+              ],
+              "description": "<p>The laterality of the procedure.</p>",
+              "maximumMultiplicity": "1",
+              "minimumMultiplicity": "0",
+              "mro": "R",
+              "name": "Laterality",
+              "type": "group",
+              "informationType": "Record",
+              "derivedFrom": "",
+              "isComponent": false,
+              "relationshipType": "specialisation",
+              "valueDomain": [
+                {
+                  "type": "CD"
+                }
+              ],
+              "implementationGuidance": "<p><br></p>"
+            },
+            {
+              "name": "Outcome",
+              "mro": "M",
+              "description": "<p>The outcome of the procedure. </p>",
+              "valueSets": "",
+              "implementationGuidance": "<p><br></p>",
+              "informationType": "Record",
+              "type": "item",
+              "minimumMultiplicity": "0",
+              "maximumMultiplicity": "1",
+              "concept": [
+                {
+                  "name": "Coded value",
+                  "mro": "M",
+                  "description": "<p>The coded value of the outcome.</p>",
+                  "valueSets": "",
+                  "implementationGuidance": "<p><br></p>",
+                  "informationType": "Record",
+                  "type": "item",
+                  "minimumMultiplicity": "0",
+                  "maximumMultiplicity": "1",
+                  "concept": [],
+                  "relationshipType": "neither",
+                  "derivedFrom": "",
+                  "isComponent": false,
+                  "valueDomain": [
+                    {
+                      "type": "CD"
+                    }
+                  ]
+                },
+                {
+                  "name": "Free text",
+                  "mro": "M",
+                  "description": "<p>Free text field to be used if no code is available.</p>",
+                  "valueSets": "",
+                  "implementationGuidance": "<p><br></p>",
+                  "informationType": "Record",
+                  "type": "item",
+                  "minimumMultiplicity": "0",
+                  "maximumMultiplicity": "1",
+                  "concept": [],
+                  "relationshipType": "neither",
+                  "derivedFrom": "",
+                  "isComponent": false,
+                  "valueDomain": [
+                    {
+                      "type": "CD"
+                    }
+                  ]
+                }
+              ],
+              "relationshipType": "neither",
+              "derivedFrom": "",
+              "isComponent": false,
+              "valueDomain": [
+                {
+                  "type": "CD"
+                }
+              ]
+            },
+            {
+              "concept": [
+                {
+                  "description": "The coded value for complications relating to procedure.",
+                  "maximumMultiplicity": "1",
+                  "minimumMultiplicity": "0",
+                  "mro": "R",
+                  "name": "Coded value",
+                  "type": "item",
+                  "valueSets": "SNOMED CT : - &lt; <a href=\"https://termbrowser.nhs.uk/?perspective=full&conceptId1=404684003&edition=uk-edition&release=&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104\" target=\"\" title=\"\">404684003</a>  |Clinical finding (finding)| <p/> \n                        "
+                },
+                {
+                  "description": "Free text field to be used if no code is available",
+                  "maximumMultiplicity": "1",
+                  "minimumMultiplicity": "0",
+                  "mro": "R",
+                  "name": "Free text",
+                  "type": "item",
+                  "valueDomain": [
+                    {
+                      "property": [
+                        {
+                          "maxLength": "150"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "valueSets": "Free text"
+                }
+              ],
+              "description": "Details of any intra-operative complications encountered during the procedure, arising during the person\u2019s stay in the recovery unit or directly attributable to the procedure.",
+              "maximumMultiplicity": "1",
+              "minimumMultiplicity": "0",
+              "mro": "R",
+              "name": "Complications related to procedure",
+              "type": "group"
+            },
+            {
+              "concept": [
+                {
+                  "description": "The coded value for specific anesthesia issues.",
+                  "maximumMultiplicity": "1",
+                  "minimumMultiplicity": "0",
+                  "mro": "R",
+                  "name": "Coded value",
+                  "type": "item",
+                  "valueSets": "SNOMED CT"
+                },
+                {
+                  "description": "Free text field to be used if no code is available",
+                  "maximumMultiplicity": "1",
+                  "minimumMultiplicity": "0",
+                  "mro": "R",
+                  "name": "Free text",
+                  "type": "item",
+                  "valueDomain": [
+                    {
+                      "property": [
+                        {
+                          "maxLength": "150"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "valueSets": "Free text"
+                }
+              ],
+              "description": "Details of any adverse reaction to any anesthetic agents including local anesthesia. Problematic intubation, transfusion reaction, etc.",
+              "maximumMultiplicity": "1",
+              "minimumMultiplicity": "0",
+              "mro": "R",
+              "name": "Specific anesthesia issues",
+              "type": "group"
+            },
+            {
+              "description": "Any further textual comment to clarify such as statement that information is partial or incomplete. Also indicate the outcome of the procedure.",
+              "maximumMultiplicity": "1",
+              "minimumMultiplicity": "0",
+              "mro": "R",
+              "name": "Comment",
+              "type": "item",
+              "valueDomain": [
+                {
+                  "property": [
+                    {
+                      "maxLength": "150"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "valueSets": "Free text"
+            },
+            {
+              "name": "New Item",
+              "mro": "M",
+              "description": "",
+              "valueSets": "",
+              "implementationGuidance": "",
+              "informationType": "Record",
+              "type": "item",
+              "minimumMultiplicity": "0",
+              "maximumMultiplicity": "1",
+              "concept": [],
+              "relationshipType": "neither"
+            }
+          ],
+          "description": "This is a procedure record entry. There may be 0 to many record entries under a section. Each record entry is made up of a number of elements or data items.",
+          "maximumMultiplicity": "*",
+          "minimumMultiplicity": "0",
+          "mro": "R",
+          "name": "Procedure record entry",
+          "type": "group"
+        }
+      ],
+      "description": "<p>The details of any procedures performed, planned or not done. Includes both psychological and medical therapies and procedures (e.g. cognitive behaviour therapy, hip replacement).</p>",
+      "maximumMultiplicity": "1",
+      "minimumMultiplicity": "0",
+      "mro": "R",
+      "name": "Procedures and therapies",
+      "type": "group",
+      "isComponent": true,
+      "relationshipType": "neither",
+      "informationType": "Record",
+      "derivedFrom": "",
+      "valueDomain": [
+        {
+          "type": "CD"
+        }
+      ],
+      "implementationGuidance": "<p><br></p>"
+    }
+  ]
+}
