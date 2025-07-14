@@ -383,26 +383,6 @@
                 }
               ],
               "valueSets": "Free text"
-            },
-            {
-              "name": "New Item",
-              "mro": "M",
-              "description": "<p><br></p>",
-              "valueSets": "",
-              "implementationGuidance": "<p><br></p>",
-              "informationType": "Record",
-              "type": "item",
-              "minimumMultiplicity": "0",
-              "maximumMultiplicity": "1",
-              "concept": [],
-              "relationshipType": "neither",
-              "derivedFrom": "",
-              "isComponent": false,
-              "valueDomain": [
-                {
-                  "type": "CD"
-                }
-              ]
             }
           ],
           "description": "This is a procedure record entry. There may be 0 to many record entries under a section. Each record entry is made up of a number of elements or data items.",
