@@ -4,6 +4,11 @@ Release Notes:
 
 test
 
+Table of Contents:
 <!-- LATEST_START -->
-* _(TOC will be generated here)_
+
+* [KC_test_Procedure_and_therapies__1.0.0.xlsx](latest/KC_test_Procedure_and_therapies__1.0.0.xlsx)
+* [model.json](latest/model.json)
+* [viewer.html](latest/viewer.html)
+
 <!-- LATEST_END -->
