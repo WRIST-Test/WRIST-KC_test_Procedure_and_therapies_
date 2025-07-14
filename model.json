@@ -133,17 +133,24 @@
               ]
             },
             {
-              "name": "New Item",
+              "name": "Part of (parent procedure)",
               "mro": "M",
-              "description": "",
+              "description": "<p><br></p>",
               "valueSets": "",
-              "implementationGuidance": "",
+              "implementationGuidance": "<p><br></p>",
               "informationType": "Record",
               "type": "item",
               "minimumMultiplicity": "0",
-              "maximumMultiplicity": "1",
+              "maximumMultiplicity": "*",
               "concept": [],
-              "relationshipType": "neither"
+              "relationshipType": "neither",
+              "derivedFrom": "",
+              "isComponent": false,
+              "valueDomain": [
+                {
+                  "type": "CD.CV"
+                }
+              ]
             },
             {
               "concept": [
