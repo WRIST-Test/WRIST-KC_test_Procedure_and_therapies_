@@ -107,7 +107,7 @@
               "isComponent": false,
               "valueDomain": [
                 {
-                  "type": "CD"
+                  "type": "CD.CV"
                 }
               ]
             },
