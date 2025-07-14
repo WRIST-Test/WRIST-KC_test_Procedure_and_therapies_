@@ -73,7 +73,7 @@
             },
             {
               "name": "Part of (parent procedure)",
-              "mro": "M",
+              "mro": "R",
               "description": "<p><br></p>",
               "valueSets": "",
               "implementationGuidance": "<p><br></p>",
