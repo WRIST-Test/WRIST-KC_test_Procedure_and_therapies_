@@ -1,14 +1,9 @@
-# KC test Procedure and therapies  1.0.0
+# KC test Procedure and therapies  1-build.1.0
 
 Release Notes:
 
-test
+Test
 
-Table of Contents:
 <!-- LATEST_START -->
-
-* [KC_test_Procedure_and_therapies__1.0.0.xlsx](latest/KC_test_Procedure_and_therapies__1.0.0.xlsx)
-* [model.json](latest/model.json)
-* [viewer.html](latest/viewer.html)
-
+* _(TOC will be generated here)_
 <!-- LATEST_END -->
