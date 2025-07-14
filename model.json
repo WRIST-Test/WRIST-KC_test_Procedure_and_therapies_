@@ -411,26 +411,6 @@
           "mro": "R",
           "name": "Procedure record entry",
           "type": "group"
-        },
-        {
-          "name": "Part of (parent procedure)",
-          "mro": "R",
-          "description": "<p><br></p>",
-          "valueSets": "",
-          "implementationGuidance": "<p><br></p>",
-          "informationType": "Record",
-          "type": "item",
-          "minimumMultiplicity": "0",
-          "maximumMultiplicity": "*",
-          "concept": [],
-          "relationshipType": "neither",
-          "derivedFrom": "",
-          "isComponent": false,
-          "valueDomain": [
-            {
-              "type": "CD.CV"
-            }
-          ]
         }
       ],
       "description": "<p>The details of any procedures performed, planned or not done. Includes both psychological and medical therapies and procedures (e.g. cognitive behaviour therapy, hip replacement).</p>",
