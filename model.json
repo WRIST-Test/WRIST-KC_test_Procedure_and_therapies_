@@ -103,26 +103,6 @@
               "maximumMultiplicity": "*",
               "concept": [
                 {
-                  "name": "Coded value",
-                  "mro": "M",
-                  "description": "<p>The coded value for reason for procedure.&nbsp;</p>",
-                  "valueSets": "",
-                  "implementationGuidance": "<p><br></p>",
-                  "informationType": "Record",
-                  "type": "item",
-                  "minimumMultiplicity": "0",
-                  "maximumMultiplicity": "1",
-                  "concept": [],
-                  "relationshipType": "neither",
-                  "derivedFrom": "",
-                  "isComponent": false,
-                  "valueDomain": [
-                    {
-                      "type": "CD"
-                    }
-                  ]
-                },
-                {
                   "name": "Free text",
                   "mro": "M",
                   "description": "<p>Free text field to be used if no code is available.</p>",
